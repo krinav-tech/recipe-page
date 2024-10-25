@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family:"young-serif";
+    src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: "outfit";
+    src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+:root{
+
+    /* color  */
+
+    --White: hsl(0, 0%, 100%);
+    --Stone-100: hsl(30, 54%, 90%);
+    --Stone-150: hsl(30, 18%, 87%);
+    --Stone-600: hsl(30, 10%, 34%);
+    --Stone-900: hsl(24, 5%, 18%);
+    --Brown-800: hsl(14, 45%, 36%);
+
+    --Rose-800: hsl(332, 51%, 32%);
+    --Rose-50: hsl(330, 100%, 98%);
+
+    /* font  */
+
+    --outfit: "outfit";
+    --young-serif:"young-serif";
+
+    --fw-400:400;
+    --fw-600:600;
+    --fw-700:700;
+
+}
+
+body{
+    margin: 122px auto;
+    background-color: var(--Stone-100);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 44rem;
+    background-color: var(--White);
+    border-radius: 1.2rem;
+    border-radius: 1.2rem;
+    padding: 2vw;
+}
+
+.about-recipe {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+    padding: 1.5rem;
+}
+
+img.recipe-photo {
+    border-radius: 1.5rem;
+}
+
+.intro {
+    margin-top: 1.5rem;
+}
+
+.name{
+    font-family: var(--young-serif);
+    font-weight: var(--fw-700);
+    color: var(--Brown-900);
+    margin-bottom: 24px;
+}
+
+
+
+.about-recipe{
+    padding: 1.5rem;
+}
+
+.recipe-headings{
+    font-family: var(--young-serif);
+    font-weight: var(--fw-600);
+    color: var(--Brown-800);
+}
+
+.preparation-info {
+    background-color: var(--Rose-50);
+    padding: 1.5rem;
+}
+
+.preparation-info ul {
+    padding-left: 1rem;
+}
+
+.preparation-heading{
+
+    font-family: var(--outfit);
+    color: var(--Rose-800);
+
+}
+
+.ingredients ul{
+    padding: 1rem;
+}
+.instructions ol{
+    padding: 1rem;
+}
+
+.list-item,.description{
+
+    font-family: var(--outfit);
+    font-weight: var(--fw-400);
+    color: var(--Stone-600);
+    line-height: 1.5rem;
+}
+
+.nutrition-table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.nutrition-table td, .nutrition-table th {
+    padding: 15px;
+    border-bottom: 1px solid var(--Stone-150);
+}
+.nutrition-table tr:last-child td {
+    border-bottom: none; /* Remove bottom border for the last row */
+}
+
+hr{
+    border-bottom: 1px solid var(--Stone-150);
+}
+
+
+.nutrition-labal{
+
+    font-family: var(--outfit);
+    color: var(--Stone-600);
+}
+
+.nutrition-value{
+    font-family: var(--outfit);
+    color: var(--Brown-800);
+    font-weight: var(--fw-700);
+}
