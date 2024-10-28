@@ -55,14 +55,14 @@ body{
     background-color: var(--White);
     border-radius: 1.2rem;
     border-radius: 1.2rem;
-    padding: 2.5vw 2.5vw 0 2.5vw;
+    padding: 2.5vw;
 }
 
 .about-recipe {
     display: flex;
     flex-direction: column;
     row-gap: 25px;
-    padding: 1.5rem;
+    padding: 1.5rem 1.5rem 0 1.5rem;
 }
 
 img.recipe-photo {
