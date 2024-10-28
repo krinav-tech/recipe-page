@@ -104,7 +104,7 @@ img.recipe-photo {
 }
 
 .preparation-heading{
-
+    margin-bottom: 10px;
     font-family: var(--outfit);
     color: var(--Rose-800);
 
