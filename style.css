@@ -55,7 +55,7 @@ body{
     background-color: var(--White);
     border-radius: 1.2rem;
     border-radius: 1.2rem;
-    padding: 2vw;
+    padding: 2.5vw;
 }
 
 .about-recipe {
@@ -76,7 +76,8 @@ img.recipe-photo {
 .name{
     font-family: var(--young-serif);
     font-weight: var(--fw-700);
-    color: var(--Brown-900);
+    color: var(--Stone-600);
+    font-size: 2rem;
     margin-bottom: 24px;
 }
 
@@ -90,6 +91,7 @@ img.recipe-photo {
     font-family: var(--young-serif);
     font-weight: var(--fw-600);
     color: var(--Brown-800);
+    font-size: 1.8rem;
 }
 
 .preparation-info {
